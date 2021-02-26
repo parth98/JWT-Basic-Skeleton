@@ -4,3 +4,4 @@ for validating credential then generating token JwtUsernameAndPasswordAuthentica
 Before requesting to API each Request should have authorization header JwtTokenVerifier.java will verify the token
 JwtConfig.java -- will hold information regarding    secretKey tokenPrefix tokenExpirationAfterDays;
 JwtSecretKey.java -- will be for generation of key
+ApplicationSecurityConfig.java - For Spring security
