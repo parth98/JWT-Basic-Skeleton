@@ -1,1 +1,6 @@
 ##
+#Jwt package 
+for validating credential then generating token JwtUsernameAndPasswordAuthenticationFilter.java
+Before requesting to API each Request should have authorization header JwtTokenVerifier.java will verify the token
+JwtConfig.java -- will hold information regarding    secretKey tokenPrefix tokenExpirationAfterDays;
+JwtSecretKey.java -- will be for generation of key
